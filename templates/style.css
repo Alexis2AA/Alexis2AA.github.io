@@ -1,3 +1,41 @@
-.titulo{text-align: center;}
-.textop{text-align: center;}
-.fondo{background-color: rgb(70, 17, 116);}
+.navbar-custom {
+    background-color: black;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-custom.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro translúcido */
+}
+
+body {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+    
+}
+.nav-item {
+    margin-right: 80px; /* Espacio entre las opciones */
+}
+
+/* Estilo por defecto del texto en el menú */
+.nav-link {
+    color: white; /* Color inicial: blanco */
+    text-decoration: none; /* Sin subrayado por defecto */
+    font-size: 22px; /* Ajusta el tamaño si es necesario */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Transición suave */
+    
+}
+
+/* Efecto hover para las opciones del menú */
+.nav-link:hover {
+    color: #2ecc71; /* Cambia a verde cuando pasa el cursor */
+    text-decoration: underline; /* Agrega subrayado */
+}
+
+/* Estilo específico para el nombre "ALEXIS" */
+.alexis {
+    color: #2ecc71; /* Color verde por defecto */
+    font-weight: bold; /* Negrita */
+    font-size: 30px; /* Tamaño ajustado */
+}
