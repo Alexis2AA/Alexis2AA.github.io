@@ -39,3 +39,41 @@ body {
     font-weight: bold; /* Negrita */
     font-size: 30px; /* Tamaño ajustado */
 }
+.img-circle {
+    padding: 30px;
+    object-fit: contain; /* Ajusta la imagen para que no se recorte */
+    width: 100%; /* Ajusta el ancho al contenedor */
+    height: auto; /* Mantén las proporciones */
+    border-radius: 50%; /* Hace la imagen circular */
+    overflow: hidden; /* Asegura que los bordes redondeados se respeten */
+}
+
+@media (min-width: 992px) {
+    .img-circle {
+        object-fit: cover; /* Cambia a "cover" para pantallas grandes */
+    }
+}
+
+.nombre{color: #2ecc71;}
+.presentacion{font-family: Arial, Helvetica;
+font-size: 40px;}
+.icon-container {
+    display: flex; /* Alinea los íconos uno junto al otro */
+    gap: 20px; /* Espaciado entre cada ícono */
+}
+
+.circle {
+    width: 60px; /* Tamaño del círculo */
+    height: 60px; /* Tamaño del círculo */
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    border: 3px solid #2ecc71; /* Color verde del borde */
+    display: flex;
+    justify-content: center; /* Centra los íconos horizontalmente */
+    align-items: center; /* Centra los íconos verticalmente */
+    background-color: black; /* Fondo negro opcional */
+    color: #2ecc71; /* Color del ícono */
+}
+
+i {
+    font-size: 24px; /* Tamaño de los íconos */
+}
