@@ -4,53 +4,53 @@
 }
 
 .navbar-custom.scrolled {
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro translúcido */
+    background-color: rgba(0, 0, 0, 0.8); 
 }
 
 body {
-    background-color: black; /* Fondo negro */
-    color: white; /* Texto blanco */
+    background-color: black; 
+    color: white; 
     margin: 0;
     padding: 0;
     
 }
 .nav-item {
-    margin-right: 80px; /* Espacio entre las opciones */
+    margin-right: 80px;
 }
 
-/* Estilo por defecto del texto en el menú */
+
 .nav-link {
-    color: white; /* Color inicial: blanco */
-    text-decoration: none; /* Sin subrayado por defecto */
-    font-size: 22px; /* Ajusta el tamaño si es necesario */
-    transition: color 0.3s ease, text-decoration 0.3s ease; /* Transición suave */
+    color: white;
+    text-decoration: none; 
+    font-size: 22px; 
+    transition: color 0.3s ease, text-decoration 0.3s ease; 
     
 }
 
-/* Efecto hover para las opciones del menú */
+
 .nav-link:hover {
-    color: #2ecc71; /* Cambia a verde cuando pasa el cursor */
-    text-decoration: underline; /* Agrega subrayado */
+    color: #2ecc71; 
+    text-decoration: underline; 
 }
 
-/* Estilo específico para el nombre "ALEXIS" */
+
 .alexis {
-    color: #2ecc71; /* Color verde por defecto */
-    font-weight: bold; /* Negrita */
-    font-size: 30px; /* Tamaño ajustado */
+    color: #2ecc71; 
+    font-weight: bold;
+    font-size: 30px; 
 }
 .img-circle {
     padding: 30px;
-    object-fit: contain; /* Ajusta la imagen para que no se recorte */
-    width: 100%; /* Ajusta el ancho al contenedor */
-    height: auto; /* Mantén las proporciones */
-    border-radius: 50%; /* Hace la imagen circular */
-    overflow: hidden; /* Asegura que los bordes redondeados se respeten */
+    object-fit: contain; 
+    width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+    overflow: hidden; 
 }
 
 @media (min-width: 992px) {
     .img-circle {
-        object-fit: cover; /* Cambia a "cover" para pantallas grandes */
+        object-fit: cover;
     }
 }
 
@@ -58,22 +58,22 @@ body {
 .presentacion{font-family: Arial, Helvetica;
 font-size: 40px;}
 .icon-container {
-    display: flex; /* Alinea los íconos uno junto al otro */
-    gap: 20px; /* Espaciado entre cada ícono */
+    display: flex; 
+    gap: 20px;
 }
 
 .circle {
-    width: 60px; /* Tamaño del círculo */
-    height: 60px; /* Tamaño del círculo */
-    border-radius: 50%; /* Hace que el contenedor sea circular */
-    border: 3px solid #2ecc71; /* Color verde del borde */
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    border: 3px solid #2ecc71; 
     display: flex;
-    justify-content: center; /* Centra los íconos horizontalmente */
-    align-items: center; /* Centra los íconos verticalmente */
-    background-color: black; /* Fondo negro opcional */
-    color: #2ecc71; /* Color del ícono */
+    justify-content: center; 
+    align-items: center; 
+    background-color: black; 
+    color: #2ecc71; 
 }
 
 i {
-    font-size: 24px; /* Tamaño de los íconos */
+    font-size: 24px;
 }
