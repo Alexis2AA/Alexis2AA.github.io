@@ -100,8 +100,9 @@ header{
     width: 200px;
     margin: 80px;
     padding: 70px;
-    height: auto;
+    height: 200px;
     background-color: white;
-    
+    border: solid 2px;
     border-radius: 20px;
+    border-color: #2ecc71;
 }
