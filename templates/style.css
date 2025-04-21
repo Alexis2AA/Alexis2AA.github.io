@@ -77,3 +77,26 @@ font-size: 40px;}
 i {
     font-size: 24px;
 }
+
+
+/* modificacion de skill */
+header{
+    display: block;
+    margin: 80px;
+    padding: 50px;
+   
+}
+.titulo{
+    color: #2ecc71;
+    text-align: center;
+    font-size: 50px;
+}
+.skill{
+    display: block;
+    text-align: center;
+}
+.ability{
+    width: 200px;
+    margin: 80px;
+    height: auto;
+}
