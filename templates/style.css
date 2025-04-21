@@ -94,9 +94,14 @@ header{
 .skill{
     display: block;
     text-align: center;
+    
 }
 .ability{
     width: 200px;
     margin: 80px;
+    padding: 70px;
     height: auto;
+    background-color: white;
+    
+    border-radius: 20px;
 }
