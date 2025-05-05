@@ -49,3 +49,38 @@ document.getElementById("mostrarCorreo").addEventListener("click", function(even
       alert("Número de WhatsApp copiado al portapapeles!");
     });
   });
+
+
+  //traduccion
+document.addEventListener("DOMContentLoaded", () => {
+    const languageSelector = document.getElementById("language-selector");
+  
+    fetch("templates/js/translations.json")
+        .then(response => response.json())
+        .then(translations => {
+            languageSelector.addEventListener("change", (event) => {
+                const lang = event.target.value;
+  
+                document.querySelectorAll("#home").forEach(el => el.innerText = translations[lang].home);
+                document.querySelectorAll("#skillse").forEach(el => el.innerText = translations[lang].skillse);
+                document.querySelectorAll("#about").forEach(el => el.innerText = translations[lang].about);
+                document.querySelectorAll("#habilidad").forEach(el => el.innerText = translations[lang].habilidad);
+                document.querySelectorAll("#my").forEach(el => el.innerText = translations[lang].my);
+                document.querySelectorAll("#title").forEach(el => el.innerText = translations[lang].title);
+                document.querySelectorAll("#nivel").forEach(el => el.innerText = translations[lang].nivel);
+                document.querySelectorAll("#mi").forEach(el => el.innerText = translations[lang].mi);
+                document.querySelectorAll("#role").forEach(el => el.innerText = translations[lang].role);
+                document.querySelectorAll("#description").forEach(el => el.innerText = translations[lang].description);
+                document.querySelectorAll("#studies").forEach(el => el.innerText = translations[lang].studies);
+                document.querySelectorAll("#estudio2").forEach(el => el.innerText = translations[lang].estudio2);
+                document.querySelectorAll("#estudios").forEach(el => el.innerText = translations[lang].estudios);
+                document.querySelectorAll("#comin").forEach(el => el.innerText = translations[lang].comin);
+                document.querySelectorAll("#descargar").forEach(el => el.innerText = translations[lang].descargar);
+                document.querySelectorAll("#basico").forEach(el => el.innerText = translations[lang].basico);
+                document.querySelectorAll("#about2").forEach(el => el.innerText = translations[lang].about); 
+            });
+        })
+        .catch(error => console.error("Error loading translations:", error));
+  });
+  
+  

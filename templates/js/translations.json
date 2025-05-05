@@ -1,0 +1,37 @@
+{
+    "en": {
+        "home":"Home",
+        "skillse":"Skills",
+        "studies":"studies",
+        "nivel":"Intermediate",
+        "about":"About me",
+        "my":"My projects",
+        "mi":"I am a web developer passionate about building efficient and scalable applications using Python and Flask. I specialize in front-end development with HTML and CSS, creating intuitive and visually appealing interfaces. Additionally, I have experience working with MySQL, managing databases to ensure optimal performance and reliability. I enjoy tackling technological challenges, learning new tools, and continuously improving my skills to develop innovative web solutions.",
+        "title": "Hi, I'm Alexis Alfonso",
+        "role": "Systems Analyst",
+        "comin":"Comin son",
+        "basico":"Basic",
+        "descargar":"Download CV",
+        "estudios":"Secondary school No. 8 (bachelor's degree in physical education).",
+        "estudio2":"Tech, Systems Analyst, Intech 132 (higher technical training institute No. 132).",
+        "description": "Passionate about web development, always looking to learn and improve my skills. I love exploring new technologies and optimizing processes to create innovative digital experiences."
+    },
+    "es": {
+        "home":"inicio",
+        "skillse":"Habilidades",
+        "studies":"Estudios",
+        "nivel":"Intermedio",
+        "about":"Sobre mi",
+        "my":"Mis proyectos",
+        "mi":"Soy un desarrollador web apasionado por crear aplicaciones eficientes y escalables con Python y Flask. Me especializo en desarrollo front-end con HTML y CSS, creando interfaces intuitivas y visualmente atractivas. Además, tengo experiencia con MySQL, gestionando bases de datos para garantizar un rendimiento y una fiabilidad óptimos. Disfruto afrontando retos tecnológicos, aprendiendo nuevas herramientas y mejorando continuamente mis habilidades para desarrollar soluciones web innovadoras.",
+        "title": "Hola, soy Alexis Alfonso",
+        "role": "Analista de sistemas",
+        "estudios":"Escuela de educación secundaria N°8(bachiller en educucación física).",
+        "estudio2":"Tec, Analista de sistemas, Intech 132 (instituto superior de formacion tecnica n°132).",
+        "comin":"Proximamente",
+        "descargar":"Descargar CV",
+        "basico":"Basico",
+        "description": "Apasionado por el desarrollo web, siempre en busca de aprender y mejorar mis habilidades. Me encanta explorar nuevas tecnologías y optimizar procesos para crear experiencias digitales innovadoras."
+        
+    }
+}
