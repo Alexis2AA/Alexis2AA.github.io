@@ -211,3 +211,44 @@ body, p, h1, h2, h3, a, img {
   font-family: miletra;
   src: url("Kings\ Sinquers.otf");
 }
+
+
+/* Skills*/
+
+.titulo {
+  font-family: miletra;
+  gap: 20px;
+  color: #2ecc71;
+
+  padding: 10%;
+  text-align: center;
+
+}
+
+
+
+.skill {
+  display: grid;
+  border: 10px solid rgb(0, 0, 0);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+  max-width: 1400px; 
+  margin: 0 auto;
+  padding: 0 20px;   
+}
+
+
+.habilidades {
+  font-family: miletra;
+  color: #ffffff;
+  border-radius: 6px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px #2ecc71;
+  position: relative; 
+  overflow: hidden;   
+}
+
+
