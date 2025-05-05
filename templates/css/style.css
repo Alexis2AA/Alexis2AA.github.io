@@ -240,6 +240,7 @@ body, p, h1, h2, h3, a, img {
 
 
 .habilidades {
+  padding: 15px;
   font-family: miletra;
   color: #ffffff;
   border-radius: 6px;
