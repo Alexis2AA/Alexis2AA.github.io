@@ -140,3 +140,23 @@ i {
 .icon-container a i {
   color: #2ecc71; /* Cambia los íconos a tu color deseado */
 }
+
+.cv{
+  justify-content: center;
+  align-content: center;
+  background-color: #2ecc71;
+  width: auto;
+  height: auto;
+  color: black;
+  font-size: 20px;
+  padding: 10px ;
+  height: auto;
+  text-align: center;
+  margin: 50px;
+
+}
+/* Eliminar subrayado y color azul de los enlaces */
+.cv, .icon-container a {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Mantiene el color original */
+}
