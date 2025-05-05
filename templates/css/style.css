@@ -340,3 +340,13 @@ body, p, h1, h2, h3, a, img {
   overflow: hidden;   /* Evita que se salga el overlay */
 
 }
+
+.titulo2 {
+  font-family: miletra;
+  color: #2ecc71;
+
+
+  padding: 120px;
+  text-align: center;
+
+}
