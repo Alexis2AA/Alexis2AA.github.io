@@ -77,3 +77,66 @@ font-weight: bold;
 font-size: 30px; 
 
 }
+
+/* presentacion */
+.alexis {
+  color: #2ecc71; 
+  font-weight: bold;
+  font-size: 30px; 
+
+}
+
+.img-cuadrado {
+  padding: 40px;
+  object-fit: contain; 
+  width: 100%; 
+  height: auto; 
+  overflow: hidden; 
+}
+.img-cuadrado2 {
+  border: 2px solid #2ecc71;
+  padding: 40px;
+  object-fit: contain; 
+  width: 100%; 
+  height: auto; 
+  overflow: hidden; 
+}
+
+
+@media (min-width: 992px) {
+  .img-circle {
+      object-fit: cover;
+  }
+}
+
+.nombre{color: #2ecc71;}
+.presentacion{font-family: miletra;
+  font-size: 40px;
+  text-align: left;}
+  
+.icon-container {
+  display: flex; 
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.circle {
+  width: 60px; 
+  height: 60px; 
+  border-radius: 50%; 
+  border: 3px solid #2ecc71; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: black; 
+  color: #2ecc71; 
+}
+
+i {
+  font-size: 24px;
+}
+
+.icon-container a i {
+  color: #2ecc71; /* Cambia los íconos a tu color deseado */
+}
