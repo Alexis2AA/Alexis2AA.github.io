@@ -21,4 +21,59 @@
   }
   
  
+  #index {
+    padding-top: 80px; /* Ajusta este valor según la altura de tu navbar */
+  }
   
+  .nav-item {
+    margin-right: 80px;
+  }
+  
+  
+.container{
+    gap: 20px;
+}
+
+
+.navbar-custom {
+    font-family: miletra;
+    background-color: black;
+    transition: background-color 0.3s ease;
+  }
+  
+.navbar-custom.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); 
+  }
+  
+ 
+#index {
+    padding-top: 80px; /* Ajusta este valor según la altura de tu navbar */
+  }
+  
+.nav-item {
+margin-right: 80px;
+}
+
+
+.nav-link {
+color: white;
+text-decoration: none; 
+font-weight: bold;
+font-size: 22px; 
+transition: color 0.3s ease, text-decoration 0.3s ease; 
+
+}
+
+
+.nav-link:hover {
+color: #2ecc71; 
+text-decoration: underline; 
+}
+
+
+.alexis {
+color: #2ecc71; 
+font-weight: bold;
+font-size: 30px; 
+
+}
