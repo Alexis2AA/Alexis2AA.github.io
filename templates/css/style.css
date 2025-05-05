@@ -350,3 +350,21 @@ body, p, h1, h2, h3, a, img {
   text-align: center;
 
 }
+
+.navbar-custom {
+  font-family: miletra;
+  background-color: black;
+  transition: background-color 0.3s ease;
+}
+h2 {
+  font-size: 15vmin;
+  position: absolute;
+}
+
+.titulo-mi{
+  font-family: miletra;
+  font-size: 25px;
+  text-align: center;
+  padding: 5%;
+
+}
